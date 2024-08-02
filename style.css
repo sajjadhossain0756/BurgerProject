@@ -1,0 +1,119 @@
+/* google font cdn link */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.oswald-font {
+    font-family: "Oswald", sans-serif;
+}
+
+/* universal styles start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.secondaryColor{
+    color: #ffcc00;
+}
+/* header section styles start here */
+#closeIcon{
+    display: none;
+}
+#hamburger{
+    display: none;
+}
+header{
+    background-color: #010a5e;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 60px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.nav-logo{
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.navbar-nav{
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+}
+.navbar-nav li a{
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-nav li a:hover{
+    color: #ffcc00;
+    transition: 1s ease-in;
+}
+.nav-mode-icon{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+.nav-mode-icon i{
+    font-size: 22px;
+}
+.nav-logo{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+/* responsive design for mobile device */
+@media screen and (max-width:576px) {
+/* header section styles start here */
+header{
+    padding: 10px 0px;
+}
+nav{
+    padding: 0px 20px;
+}
+#closeIcon{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    z-index: 2;
+    font-size: 22px;
+}
+#hamburger{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.navbar-nav{
+    position: absolute;
+    flex-direction: column;
+    background-color: #010a5e;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.nav-mode-icon{
+    display: flex;
+    gap: 20px;
+    right: 20px;
+} 
+  
+    
+}
