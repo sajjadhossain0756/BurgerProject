@@ -352,6 +352,52 @@ main{
     font-size: 20px;
     margin-top: 10px;
 }
+/* review section start here */
+.review-section{
+    padding: 40px 100px;
+    background-color: var(--bg-color);
+}
+.review-content{
+    color: white;
+    text-align: center;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.review-content .saparator{
+    margin: 0 auto;
+}
+.review-content .title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.review-container{
+    color: white;
+    background-color: rgb(31, 31, 112);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.review-image{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.review-image .client-name{
+    font-size: 16px;
+    font-weight: 800;
+}
+.review-image i{
+    font-size: 48px;
+    margin-left: auto;
+}
+.review-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 
 
 /* responsive design for mobile device */
@@ -457,7 +503,10 @@ nav{
 }
 .menu-card{
     margin: 0 auto;
-    width: 350px;
+}
+/* review section start here */
+.review-section{
+    padding: 40px 20px;
 }
 
   

@@ -407,9 +407,136 @@
               </li>
            </ul>
       </div>
-  </section>       
+     </section> 
+     <!---------------- Review Section --------------->
+    <section id="review">
+      <div class="review-section">
+         <div class="review-content">
+            <h2 class="title">OUR BEST MENU</h2>
+            <div class="saparator "></div>
+            <p class="para-color">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Distinctio numquam assumenda obcaecati cumque tempore, 
+                 sapiente voluptatibus corrupti repudiandae ut ex labore illum atque
+                 dolore soluta reprehenderit in, culpa itaque sunt.
+            </p>
+          </div>
+          <div class="swiper">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div class="review-container">
+                        <p class="para-color">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Corrupti quod, pariatur ratione nisi eligendi atque fugit sequi! Lorem ipsum dolor sit amet.</p>
+                        <div class="review-image">
+                            <img src="../images/review-1.jpg" alt="">
+                            <div class="">
+                                <p class="secondaryColor client-name">John Doe</p>
+                                <p class="para-color">Designer</p>
+                            </div>
+                            <i class="fa-solid fa-quote-right secondaryColor"></i>
+                        </div>     
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="review-container">
+                        <p class="para-color">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Corrupti quod, pariatur ratione nisi eligendi atque fugit sequi! Lorem ipsum dolor sit amet.</p>
+                        <div class="review-image">
+                            <img src="../images/review-2.jpg" alt="">
+                            <div class="">
+                                <p class="secondaryColor client-name">Rich Doe</p>
+                                <p class="para-color">Developer</p>
+                            </div>
+                            <i class="fa-solid fa-quote-right secondaryColor"></i>
+                        </div>     
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="review-container">
+                        <p class="para-color">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Corrupti quod, pariatur ratione nisi eligendi atque fugit sequi! Lorem ipsum dolor sit amet.</p>
+                        <div class="review-image">
+                            <img src="../images/review-3.jpg" alt="">
+                            <div class="">
+                                <p class="secondaryColor client-name">Prince Danial</p>
+                                <p class="para-color">Developer</p>
+                            </div>
+                            <i class="fa-solid fa-quote-right secondaryColor"></i>
+                        </div>     
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="review-container">
+                        <p class="para-color">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Corrupti quod, pariatur ratione nisi eligendi atque fugit sequi! Lorem ipsum dolor sit amet.</p>
+                        <div class="review-image">
+                            <img src="../images/review-4.jpg" alt="">
+                            <div class="">
+                                <p class="secondaryColor client-name">Tripali Doe</p>
+                                <p class="para-color">Developer</p>
+                            </div>
+                            <i class="fa-solid fa-quote-right secondaryColor"></i>
+                        </div>     
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="review-container">
+                        <p class="para-color">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Corrupti quod, pariatur ratione nisi eligendi atque fugit sequi! Lorem ipsum dolor sit amet.</p>
+                        <div class="review-image">
+                            <img src="../images/review-5.jpg" alt="">
+                            <div class="">
+                                <p class="secondaryColor client-name">Rich Doe</p>
+                                <p class="para-color">Developer</p>
+                            </div>
+                            <i class="fa-solid fa-quote-right secondaryColor"></i>
+                        </div>     
+                    </div>
+                </li>
+            </ul>
+
+              <div class="swiper-pagination"></div>
+          </div>
+      </div>
+</section>      
   </main>
 
+ <!----------- swiper js --------->
+   
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+ <script>
+   const swiper = new Swiper('.swiper', {
+       speed: 400,
+       spaceBetween: 30,
+       autoplay:{
+          delay: 3000,
+          disableOnInteraction: false,
+       },
+  // If we need pagination
+  pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+   },
+   grabCursor: true,
+   breakpoints: {
+   // when window width is >= 576px
+   576: {
+     slidesPerView: 1,
+   },
+   // when window width is >= 768px
+   768: {
+     slidesPerView: 2,
+   },
+   // when window width is >= 992px
+   992: {
+     slidesPerView: 3,
+   }
+ }
+
+});
+ </script>  
 
 <!-- main js file link -->
 <script src="main.js"></script>
