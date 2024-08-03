@@ -496,6 +496,9 @@ nav{
 .menu-section{
     padding: 40px 20px;
 }
+.menu-content .title{
+    font-size: 30px;
+}
 .tab-menu{
     gap: 10px;
 }
@@ -514,6 +517,9 @@ nav{
 /* review section start here */
 .review-section{
     padding: 40px 20px;
+}
+.review-content .title{
+    font-size: 30px;
 }
 
   
