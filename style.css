@@ -40,10 +40,11 @@ ul{
     background-color: var(--primary-color);
     color: black;
     padding: 10px 20px;
-    width: 150px;
+    width: 170px;
     font-size: 20px;
     font-weight: 600;
     border-radius: 5px;
+    text-align: center;
 }
 /* header section styles start here */
 #closeIcon{
@@ -208,6 +209,44 @@ main{
     font-weight: 600;
     cursor: pointer;
 }
+/* promo-section style start here */
+.promo-section{
+    padding: 30px 100px;
+    background-color: var(--bg-color);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.promo-card{
+    display: flex;
+    align-items: center;
+    background-color: #27278e;
+    max-width: 490px;
+    padding:20px 10px;
+    border-radius: 10px;
+}
+.promo-image{
+    max-width: 200px;
+}
+.promo-image:hover{
+    animation: movingY 2s linear infinite ;
+}
+.promo-image img{
+    width: 100%;
+}
+.promo-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.promo-content .title{
+    font-size: 25px;
+}
+.promo-content .sub-title, .promo-content a{
+    font-weight: 600;
+    font-size: 20px;
+}
 
 
 
@@ -278,6 +317,24 @@ nav{
 .catagory-card{
    margin: 0px auto;
    width: 350px;
+}
+/* promo-section style start here */
+.promo-section{
+    padding: 30px 20px;
+    grid-template-columns: repeat(1,1fr);
+}
+.promo-card{
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.promo-image{
+    width: 350px;
+    height: 200px;
+}
+.promo-image img{
+    height: 100%;
+    width: 100%;
 }
   
     
