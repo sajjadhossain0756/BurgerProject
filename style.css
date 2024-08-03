@@ -284,6 +284,74 @@ main{
     padding-right: 8px;
     font-size: 20px;
 }
+/* menu section style start here */
+.menu-section{
+    padding: 40px 100px;
+    background-color: var(--bg-color);
+}
+.menu-content{
+    color: white;
+    text-align: center;
+}
+.menu-content .title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.menu-content .saparator{
+    margin: 20px auto;
+
+}
+.tab-menu{
+    display: flex;
+    margin: 30px 0px;
+    justify-content: center;
+    gap: 20px;
+}
+.tab-menu li{
+    background-color: rgb(36, 36, 95);
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.tab-menu li:hover,
+.tab-menu .active{
+    background-color: #ffcc00;
+    color: black;
+}
+.menu-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.menu-card{
+    max-width: 250px;
+}
+.menu-card-image{
+    max-width: 250px;
+    height: 250px;
+    background-color: rgb(73, 76, 243);
+    border-radius: 10px;
+}
+.menu-card-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.menu-card-content{
+    padding: 10px 0px;
+    color: white;
+    padding: 5px;
+}
+.menu-card-content .title{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.menu-card-content .price{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
 
 
 /* responsive design for mobile device */
@@ -378,6 +446,20 @@ nav{
     grid-template-columns: repeat(1,1fr);
     gap: 30px;
 }
+/* menu section style start here */
+.menu-section{
+    padding: 40px 20px;
+}
+.menu-card-container{
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.menu-card{
+    margin: 0 auto;
+    width: 350px;
+}
+
   
     
 }
