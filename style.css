@@ -437,6 +437,48 @@ main{
     font-weight: 600;
     text-align: center;
 }
+/* footer section start here */
+.footer-section{
+    background-color: black;
+    color: white;
+    padding: 40px 100px;
+}
+.footer-content{
+    max-width: 500px;
+    margin: 20px 0px;
+}
+.footer-content .title{
+    font-size: 40px;
+    font-weight: 600;
+}
+.footer-content p{
+    margin: 10px 0px;
+}
+.footer-link{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-link .sub-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+.footer-link ul li{
+    margin: 10px 0px;
+    opacity: 70%;
+}
+.footer-link .icon-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-link .icon-box i{
+    color: #ffcc00;
+}
+.footer-link .icon-box p{
+    opacity: 70%;
+}
 
 
 /* responsive design for mobile device */
@@ -570,6 +612,14 @@ nav{
 }
 .contact-input a{
     padding: 15px 5px;
+}
+/* footer section start here */
+.footer-section{
+    padding: 40px 20px;
+}
+.footer-link{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
 }  
     
 }
